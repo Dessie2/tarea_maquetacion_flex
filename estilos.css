@@ -202,7 +202,11 @@ body{
 
 /* MEDIA QUERY MOVIL */
 @media (max-width:480px){
-
+    .logo img{
+    height: 50px;
+    margin: 20px auto;
+    display: block;
+}
     /* Mwnu */
     .menu{
         flex-direction: column;
@@ -217,7 +221,7 @@ body{
     }
     .menu a:first-child{
     border-left: 0px solid #ccc;
-}
+  }
 
 
     /* HERO */
@@ -257,9 +261,13 @@ body{
         gap: 20px;
         text-align: center;
     }
-
+    .logo_footer img{
+    height: 60px;
+    cursor: pointer;
+    }
     .contenedor_footer::before,
     .contenedor_footer::after{
         width: 100%;
+        margin-bottom: 0px;
     }
 }
